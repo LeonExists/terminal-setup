@@ -1,15 +1,44 @@
-# terminal-setup
+```
+  _                      _             _                _               
+ | |_ ___ _ __ _ __ ___ (_)_ __   __ _| |      ___  ___| |_ _   _ _ __  
+ | __/ _ \ '__| '_ ` _ \| | '_ \ / _` | |_____/ __|/ _ \ __| | | | '_ \ 
+ | ||  __/ |  | | | | | | | | | | (_| | |_____\__ \  __/ |_| |_| | |_) |
+  \__\___|_|  |_| |_| |_|_|_| |_|\__,_|_|     |___/\___|\__|\__,_| .__/ 
+                                                                  |_|    
+```
 
-My Windows terminal setup: Windows Terminal config, PowerShell profile, and the CLI tools I keep installed.
+<div align="center">
 
-## What's here
+**My Windows terminal setup — Windows Terminal, PowerShell, and the CLI tools I actually use.**
+**Clone it, run one script, get my whole terminal.**
 
-- `windows-terminal/settings.json` — Windows Terminal settings (theme, keybindings, profiles)
-- `powershell/Microsoft.PowerShell_profile.ps1` — PowerShell profile (zoxide init)
-- `winget/packages.txt` — list of CLI tools installed via [winget](https://learn.microsoft.com/windows/package-manager/winget/)
-- `install.ps1` — bootstrap script that installs the packages and links the configs into place
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#)
+[![Shell](https://img.shields.io/badge/shell-PowerShell-5391FE?logo=powershell&logoColor=white)](#)
+[![Package%20Manager](https://img.shields.io/badge/package%20manager-winget-blue?logo=microsoft&logoColor=white)](#)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](#)
 
-## Tools
+</div>
+
+---
+
+## ⚡ One-line install
+
+```powershell
+git clone https://github.com/LeonExists/terminal-setup.git; cd terminal-setup; .\install.ps1
+```
+
+That's it. `install.ps1` installs every tool below via `winget`, drops the PowerShell profile into `$PROFILE`, and copies the Windows Terminal settings into place.
+
+## 📦 What's inside
+
+| Path | What it is |
+|---|---|
+| `windows-terminal/settings.json` | Windows Terminal config — theme, keybindings, profiles |
+| `powershell/Microsoft.PowerShell_profile.ps1` | PowerShell profile (zoxide init) |
+| `winget/packages.txt` | The CLI tools, one winget id per line |
+| `install.ps1` | Bootstrap script — run it, get the whole setup |
+
+## 🛠️ The stack
 
 | Tool | Purpose |
 |---|---|
@@ -26,7 +55,7 @@ My Windows terminal setup: Windows Terminal config, PowerShell profile, and the 
 | [Codex CLI](https://github.com/openai/codex) | AI coding agent CLI |
 | [VS Code](https://code.visualstudio.com/) | Editor |
 
-## Usage
+## 🚀 Usage
 
 ```powershell
 git clone https://github.com/LeonExists/terminal-setup.git
@@ -35,3 +64,11 @@ cd terminal-setup
 ```
 
 This installs every package in `winget/packages.txt`, copies the PowerShell profile to `$PROFILE`, and copies the Windows Terminal settings into place.
+
+---
+
+<div align="center">
+
+If this saved you some setup time, a ⭐ is always appreciated.
+
+</div>
