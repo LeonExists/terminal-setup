@@ -1,0 +1,12 @@
+Git.Git
+GitHub.cli
+OpenJS.NodeJS.LTS
+Oven-sh.Bun
+Anthropic.ClaudeCode
+OpenAI.Codex
+BurntSushi.ripgrep.MSVC
+Fastfetch-cli.Fastfetch
+ajeetdsouza.zoxide
+yorukot.superfile
+Microsoft.WindowsTerminal
+Microsoft.VisualStudioCode
