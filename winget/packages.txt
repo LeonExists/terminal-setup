@@ -5,6 +5,7 @@ Oven-sh.Bun
 Anthropic.ClaudeCode
 OpenAI.Codex
 BurntSushi.ripgrep.MSVC
+eza-community.eza
 Fastfetch-cli.Fastfetch
 ajeetdsouza.zoxide
 yorukot.superfile

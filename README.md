@@ -33,7 +33,7 @@ That's it. `install.ps1` installs every tool below via `winget`, drops the Power
 | Path | What it is |
 |---|---|
 | `windows-terminal/settings.json` | Windows Terminal config — theme, keybindings, profiles |
-| `powershell/Microsoft.PowerShell_profile.ps1` | PowerShell profile (zoxide init) |
+| `powershell/Microsoft.PowerShell_profile.ps1` | PowerShell profile (zoxide init, eza aliases) |
 | `winget/packages.txt` | The CLI tools, one winget id per line |
 | `install.ps1` | Bootstrap script — run it, get the whole setup |
 
@@ -46,6 +46,7 @@ That's it. `install.ps1` installs every tool below via `winget`, drops the Power
 | [GitHub CLI](https://cli.github.com/) | GitHub from the terminal |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | Smarter `cd` |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | Fast recursive search |
+| [eza](https://github.com/eza-community/eza) | Better, modern `ls` |
 | [fastfetch](https://github.com/fastfetch-cli/fastfetch) | System info fetch tool |
 | [superfile](https://github.com/yorukot/superfile) | Terminal file manager |
 | [Node.js](https://nodejs.org/) | JavaScript runtime |
